@@ -1,0 +1,12 @@
+<aura:component >
+    Test..! <br />
+    <ui:inputText label="Test"
+                  placeHolder="Test"
+                  aura:id="Test" />
+    <ui:button label="Submit"
+               press="{!c.callme}" />
+    
+
+    
+    
+</aura:component>

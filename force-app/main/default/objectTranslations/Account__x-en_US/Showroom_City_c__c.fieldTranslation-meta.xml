@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Showroom City --></label>
+    <name>Showroom_City_c__c</name>
+    <picklistValues>
+        <masterLabel>Alex</masterLabel>
+        <translation><!-- Alex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assiout</masterLabel>
+        <translation><!-- Assiout --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aswan</masterLabel>
+        <translation><!-- Aswan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bany Suef</masterLabel>
+        <translation><!-- Bany Suef --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cairo</masterLabel>
+        <translation><!-- Cairo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Giza</masterLabel>
+        <translation><!-- Giza --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hurghada</masterLabel>
+        <translation><!-- Hurghada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ismaelya</masterLabel>
+        <translation><!-- Ismaelya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Luxor</masterLabel>
+        <translation><!-- Luxor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mansoura</masterLabel>
+        <translation><!-- Mansoura --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Menya</masterLabel>
+        <translation><!-- Menya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monofya</masterLabel>
+        <translation><!-- Monofya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Qena</masterLabel>
+        <translation><!-- Qena --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suez</masterLabel>
+        <translation><!-- Suez --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tanta</masterLabel>
+        <translation><!-- Tanta --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,8 @@
+<aura:component controller="Bank" implements="flexipage:availableForAllPageTypes" access="global" >
+                <ui:inputText label="Enter Email" 
+                  placeHolder="Enter Email to Delete" aura:id="currentClientBasedOnEmail" />
+    <br/>
+                <ui:inputText label="Update Email" 
+                  placeHolder="Email to Update" aura:id="UpdateClientBasedOnEmail" />
+    <ui:button label="Update Email" press="{!c.updateClientJS}" />
+</aura:component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Student__c</entityName>
+    <fieldName>School_Level__c</fieldName>
+    <masterLabel>Demo Student</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Address__c</fieldNames>
+        <fieldNames>School_Level__c</fieldNames>
+        <fieldNames>College_Name__c</fieldNames>
+        <fieldNames>Course__c</fieldNames>
+        <fieldNames>Email__c</fieldNames>
+        <picklistValueName>College</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>College_Student</recordTypeName>
+</PathAssistant>

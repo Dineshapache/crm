@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Showroom Location --></label>
+    <name>ShowroomLocation_c__c</name>
+    <picklistValues>
+        <masterLabel>Abasya</masterLabel>
+        <translation><!-- Abasya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Abis</masterLabel>
+        <translation><!-- Abis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Abu Rawash</masterLabel>
+        <translation><!-- Abu Rawash --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alex-Cairo Rd</masterLabel>
+        <translation><!-- Alex-Cairo Rd --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assiout</masterLabel>
+        <translation><!-- Assiout --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aswan</masterLabel>
+        <translation><!-- Aswan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bany Suef</masterLabel>
+        <translation><!-- Bany Suef --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dokki</masterLabel>
+        <translation><!-- Dokki --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>El Hadra</masterLabel>
+        <translation><!-- El Hadra --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gesr El Suez</masterLabel>
+        <translation><!-- Gesr El Suez --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gleem</masterLabel>
+        <translation><!-- Gleem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heliopolis-Airport Rd</masterLabel>
+        <translation><!-- Heliopolis-Airport Rd --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heliopolis-Hegaz</masterLabel>
+        <translation><!-- Heliopolis-Hegaz --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Horya Road</masterLabel>
+        <translation><!-- Horya Road --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hurghada</masterLabel>
+        <translation><!-- Hurghada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Imbaba</masterLabel>
+        <translation><!-- Imbaba --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ismaelya</masterLabel>
+        <translation><!-- Ismaelya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Janaklees</masterLabel>
+        <translation><!-- Janaklees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Katameya</masterLabel>
+        <translation><!-- Katameya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Luxor</masterLabel>
+        <translation><!-- Luxor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maadi</masterLabel>
+        <translation><!-- Maadi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mansoura 3aref</masterLabel>
+        <translation><!-- Mansoura 3aref --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mansoura Mahla</masterLabel>
+        <translation><!-- Mansoura Mahla --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Menya</masterLabel>
+        <translation><!-- Menya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mohandseen</masterLabel>
+        <translation><!-- Mohandseen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nasr City</masterLabel>
+        <translation><!-- Nasr City --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Cairo</masterLabel>
+        <translation><!-- New Cairo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nozha</masterLabel>
+        <translation><!-- Nozha --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Qalube</masterLabel>
+        <translation><!-- Qalube --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Qena</masterLabel>
+        <translation><!-- Qena --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shebin El Kom</masterLabel>
+        <translation><!-- Shebin El Kom --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shobra</masterLabel>
+        <translation><!-- Shobra --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shrouk</masterLabel>
+        <translation><!-- Shrouk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sidi Gaber</masterLabel>
+        <translation><!-- Sidi Gaber --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suez-Suez Road</masterLabel>
+        <translation><!-- Suez-Suez Road --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suez-sport city</masterLabel>
+        <translation><!-- Suez-sport city --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tanta El Fatah</masterLabel>
+        <translation><!-- Tanta El Fatah --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tanta El Nemla</masterLabel>
+        <translation><!-- Tanta El Nemla --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zayed</masterLabel>
+        <translation><!-- Zayed --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

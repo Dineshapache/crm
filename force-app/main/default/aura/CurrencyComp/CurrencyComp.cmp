@@ -1,0 +1,22 @@
+<aura:component >  
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="progress" type="Integer" default="0"/>
+    <br/><br/><br/>
+    Status:<lightning:progressBar value="{!v.progress}"/>
+    <aura:if isTrue="{!v.progress >'10'}">    <span class="ligtn-button" style="white-space: pre;"> </span>
+    <div class="slds-page-header">
+        <div class="slds-media__body">
+            <h1 class="slds-page-header__title slds-truncate slds-align-middle" >Login Details</h1>
+        </div>
+    </div>          
+    <h1> Browser? Ans: {!$Browser.formFactor}</h1>
+    <br/>      
+    <h1> Language of user ? Ans: {!$Locale.language}</h1>
+    <br/>
+    <h1> Timezone of user ? Ans: {!$Locale.timezone}</h1>
+    <br/>
+    <h1> Currency of user? Ans: {!$Locale.currency}</h1>
+    <br/>
+    </aura:if>
+</aura:component>

@@ -1,0 +1,6 @@
+<aura:component controller="Bank" implements="flexipage:availableForAllPageTypes" access="global" >
+                <ui:inputText label="Enter Email to Delete" 
+                  placeHolder="Enter Email to Delete" aura:id="DeleteClientBasedOnEmail" />
+    <br/>
+    <ui:button label="Delete Customer" press="{!c.DeleteClientJS}" />
+</aura:component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- State --></label>
+    <name>State__c</name>
+    <picklistValues>
+        <masterLabel>AP</masterLabel>
+        <translation><!-- AP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GOA</masterLabel>
+        <translation><!-- GOA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KAR</masterLabel>
+        <translation><!-- KAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TN</masterLabel>
+        <translation><!-- TN --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,34 @@
+<aura:component >  
+    
+    <div class="slds-page-header">
+        <div class="slds-media__body">
+            <h1 class="slds-page-header__title slds-truncate slds-align-middle" >Browser Details</h1>
+        </div>
+    </div>
+           
+    <h1> Is the device a Tablet? Ans: {!$Browser.isTablet}</h1>
+    <br/>
+    <h1> Is the device a Phone? Ans: {!$Browser.isPhone}</h1>
+    <br/>
+    <h1> Is the device a Android? Ans: {!$Browser.isAndroid}</h1>
+    <br/>
+    <h1> Which browser user is using? Ans: {!$Browser.formFactor}</h1>
+    <br/>
+
+    <br/>    <br/>    <br/>
+
+<div class="slds-page-header">
+        <div class="slds-media__body">
+            <h1 class="slds-page-header__title slds-truncate slds-align-middle" >Locale Details</h1>
+        </div>
+    </div>
+           
+    <h1> Language of user ? Ans: {!$Locale.language}</h1>
+    <br/>
+    <h1> Timezone of user ? Ans: {!$Locale.timezone}</h1>
+    <br/>
+    <h1> Number format of Framework? Ans: {!$Locale.numberFormat}</h1>
+    <br/>
+    <h1> Currency of user? Ans: {!$Locale.currency}</h1>
+    <br/>
+</aura:component>

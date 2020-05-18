@@ -1,0 +1,16 @@
+<aura:component controller="SalaryCalculator" implements="force:appHostable" access="global" >
+ <br/><br/>
+    <div>
+        <lightning:layout horizontalAlign="space">
+            <lightning:layoutItem flexibility="auto" padding="around-small">
+               <ui:inputText label="Technology" 
+                  placeHolder="Technology" aura:id="Technology" />
+            </lightning:layoutItem>
+            <lightning:layoutItem flexibility="auto" padding="around-small">
+               <ui:inputText label="Experience" 
+                  placeHolder="Experience" aura:id="Experience" />
+            </lightning:layoutItem>	
+        </lightning:layout>
+ <lightning:button aura:id="button1" label="Calculator" onclick="{!c.callJSCode}"/>       
+    </div>
+</aura:component>

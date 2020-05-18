@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Governorate --></label>
+    <name>Governorate_c__c</name>
+    <picklistValues>
+        <masterLabel>Alex</masterLabel>
+        <translation><!-- Alex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aswan</masterLabel>
+        <translation><!-- Aswan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cairo</masterLabel>
+        <translation><!-- Cairo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canal Zone</masterLabel>
+        <translation><!-- Canal Zone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dakahleya</masterLabel>
+        <translation><!-- Dakahleya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delta</masterLabel>
+        <translation><!-- Delta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Giza</masterLabel>
+        <translation><!-- Giza --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Helwan</masterLabel>
+        <translation><!-- Helwan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Menia</masterLabel>
+        <translation><!-- Menia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Red Sea</masterLabel>
+        <translation><!-- Red Sea --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upper Egypt</masterLabel>
+        <translation><!-- Upper Egypt --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

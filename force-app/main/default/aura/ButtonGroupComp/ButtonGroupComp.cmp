@@ -1,0 +1,17 @@
+<aura:component >
+    
+    <ui:inputText label="Enter First Number"
+                  placeHolder="First Number"
+                  aura:id="FirstNumber"/>
+    <br />
+    
+    <ui:inputText label="Enter Second Number"
+                  placeHolder="Second Number"
+                  aura:id="SecondNumber"/>
+    <br />
+    <lightning:buttonGroup >
+        <lightning:button label="Add" onclick="{!c.handleClick}" aura:id="SumBtn"/>
+        <lightning:button label="Sub" onclick="{!c.handleClick}" aura:id="SubBtn"/>
+        <lightning:button label="Mul" onclick="{!c.handleClick}" aura:id="MulBtn"/>
+    </lightning:buttonGroup>
+</aura:component>

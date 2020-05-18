@@ -1,0 +1,36 @@
+<aura:component controller="Integration" >
+    <aura:attribute name="txtWikiText" type="String"/>
+    <aura:attribute name="resultLimit" type="Integer" default="1"/>
+    <aura:attribute name="Result" type="String" />
+ 
+  <div class="slds-card">
+  <div class="slds-card__header slds-grid">
+    <div class="slds-media slds-media--center slds-has-flexi-truncate">
+     <div class="slds-media__body">
+        <h2 class="slds-text-heading--small slds-truncate">Wikipedia Search</h2>
+      </div>
+    </div>
+  
+  </div>
+  <div class="slds-card__body slds-box slds-theme--default">
+      <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size--10-of-12">
+          	<ui:inputText value="{!v.txtWikiText}" placeholder="Search Text" 
+                          class="slds-input"  />    
+          </div>
+          <div class="slds-col slds-size--2-of-12">          	        
+             <lightning:button aura:id="button1" label="Search" 
+                               onclick="{!c.searchWikiOnButton}"/>
+		 </div>
+          
+         <br/><br/><br/>          
+        </div>  
+      </div> 
+    </div>
+    
+    <br/><br/><br/>
+    <div class="slds-col slds-size--2-of-12">
+              Result: {!v.Result}
+          </div>
+    
+</aura:component>

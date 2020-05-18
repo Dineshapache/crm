@@ -1,0 +1,9 @@
+<aura:component implements="force:appHostable" controller="Candidatesearch" >
+    <aura:registerEvent name="cmpEventName" type="c:CandComponentEvent_Event"/> 
+     <aura:attribute name="selcountry" type="String"/>
+	<br/>
+	<br/>
+    <lightning:button label="Mail Search" onclick="{!c.fireComponentEvent}" />
+    <br/>
+	<br/>
+</aura:component>

@@ -1,0 +1,12 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:appHostable,force:hasRecordId" >
+<aura:registerEvent name ="bubblingEvent" type="c:OfferSPANotifierEvent"/>
+<article class="slds-card">
+<lightning:layoutItem size="2">
+<lightning:input aura:id="Candidateform3" label="Vin Number:" name="VinNumber" required="true"/> 	
+</lightning:layoutItem>
+<div class="slds-align_absolute-center">
+<lightning:button label="Search" title="Search" iconName ="utility:search"  onclick="{!c.submit}">
+</lightning:button>    
+</div>
+</article>    
+</aura:component>

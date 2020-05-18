@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_c__c</fullName>
+    <externalDeveloperName>Facility__c</externalDeveloperName>
+    <externalId>false</externalId>
+    <isFilteringDisabled>false</isFilteringDisabled>
+    <isNameField>false</isNameField>
+    <isSortingDisabled>false</isSortingDisabled>
+    <label>Facility</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1S</fullName>
+                <default>false</default>
+                <label>1S</label>
+            </value>
+            <value>
+                <fullName>2S</fullName>
+                <default>false</default>
+                <label>2S</label>
+            </value>
+            <value>
+                <fullName>3S</fullName>
+                <default>false</default>
+                <label>3S</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

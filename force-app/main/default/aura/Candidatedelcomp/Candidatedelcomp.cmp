@@ -1,0 +1,7 @@
+<aura:component implements="force:appHostable,force:lightningQuickAction" controller="Candidatesearch" >
+    <aura:attribute name="Cansearch" type="Candidate_Details__c[]"/>
+    	<ui:inputText aura:id="Mailid" label="E-Mail Id" value="Mail Id" required="true"/>
+    <div class="slds-align_absolute-center" style="height: 5rem;">
+     	<ui:button label="Delete" press="{!c.del}"/>
+    </div>
+</aura:component>

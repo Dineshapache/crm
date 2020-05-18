@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Contact Type --></label>
+    <name>Contact_Type_pc__c</name>
+    <picklistValues>
+        <masterLabel>Non-Survey</masterLabel>
+        <translation><!-- Non-Survey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Survey</masterLabel>
+        <translation><!-- Survey --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

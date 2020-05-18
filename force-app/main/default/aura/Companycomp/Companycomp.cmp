@@ -1,0 +1,17 @@
+<aura:component controller="LearningAuraController">
+    <aura:attribute name="mapValues" type="object" /> 
+    <div class="slds-m-around_xx-large">
+        <div class="slds-box slds-theme_default">
+            <lightning:button label="Food" onclick="{!c.getMapValues}"/>
+            
+			<aura:iteration items="{!v.mapValues}"  var="mapKey" indexVar="key">  
+                <strong><p>{!mapKey.key}</p></strong>
+                <aura:iteration items="{!mapKey.value}" var="mapValue">
+                    <p>{!mapValue}</p>
+                </aura:iteration>
+				<br/><br/>
+            </aura:iteration>
+			
+        </div>
+    </div>
+</aura:component>

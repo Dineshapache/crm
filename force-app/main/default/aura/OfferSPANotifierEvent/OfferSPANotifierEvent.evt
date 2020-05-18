@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION" description="Event template">
+<aura:attribute name = "ComponentAction" type = "String" Access ="global"/>
+<aura:attribute name = "vvpin" type = "String" Access ="global"/>    
+</aura:event>

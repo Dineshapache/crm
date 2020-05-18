@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactRole_pc__c</fullName>
+    <externalDeveloperName>ContactRole__pc</externalDeveloperName>
+    <externalId>false</externalId>
+    <isFilteringDisabled>false</isFilteringDisabled>
+    <isNameField>false</isNameField>
+    <isSortingDisabled>false</isSortingDisabled>
+    <label>Contact Role</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Branch Manager</fullName>
+                <default>false</default>
+                <label>Branch Manager</label>
+            </value>
+            <value>
+                <fullName>Salesman</fullName>
+                <default>false</default>
+                <label>Salesman</label>
+            </value>
+            <value>
+                <fullName>Dealer Manager</fullName>
+                <default>false</default>
+                <label>Dealer Manager</label>
+            </value>
+            <value>
+                <fullName>Dealer CRM</fullName>
+                <default>false</default>
+                <label>Dealer CRM</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,59 @@
+<aura:component controller="CandidateCreation" implements="force:appHostable" access="global">
+<aura:attribute name="CandLst" type="Candidate_Details__c" default="{
+					'sobjectType': 'Candidate_Details__c',
+					'dineshapache__First_Name__c': '',
+					'dineshapache__Last_Name__c': '',
+					'dineshapache__Age__c': '', 
+					'dineshapache__Email__c': '',
+					'dineshapache__City__c': '',
+					'dineshapache__Country__c': ''
+				    }"/>
+    <aura:attribute name="myBool" type="Boolean" default="false"/>
+    <aura:handler name="Pick" event="c:PicklistEvent" action ="{!c.road}"/>
+    <aura:handler name="change" value="{!v.myBool}" action="{!c.handleValueChange}"/>
+    <c:PicklistEventcomp/>
+    <aura:attribute name = "picklistValues" type ="String[]"/>
+	<h3 class="slds-section-title--divider" style="text-align:center">Section Information</h3>
+    <lightning:recordEditForm aura:id="recordEdit" objectApiName="dineshapache__Candidate_Details__c">
+    <form class="slds-form--stacked">
+        <lightning:layoutItem size="2">
+            <lightning:input class="form-group" aura:id="Candidateform" label="First Name"
+                             name="FirstName"
+                             value="{!v.CandLst.dineshapache__First_Name__c}"
+                             required="true"/>
+        </lightning:layoutItem>
+             <lightning:layoutItem size="2">
+            <lightning:input aura:id="Candidateform1" label="Last Name"
+                             name="LastName"
+                             value="{!v.CandLst.dineshapache__Last_Name__c}"
+                             required="true"/> 
+        </lightning:layoutItem>
+        <lightning:layoutItem size="2">
+        <lightning:input aura:id="Candidateform2" label="Age"
+                             name="FirstName"
+                             value="{!v.CandLst.dineshapache__Age__c}"
+                             /> 
+        </lightning:layoutItem>
+        <lightning:layoutItem size="2">
+        <lightning:input aura:id="Candidateform3" label="Email"
+                             name="FirstName"
+                             value="{!v.CandLst.dineshapache__Email__c}"
+                             required="true"/> 
+        </lightning:layoutItem>
+        <lightning:layoutItem size="2">
+        <lightning:select value="{!v.CandLst.dineshapache__City__c}" label ="City">
+         <option value="">Choose one...</option>
+         <aura:iteration items="{!v.picklistValues}" var="item">
+              <option value="{!item.value}">
+                    {!item}
+                </option>
+         </aura:iteration>
+        </lightning:select>
+        </lightning:layoutItem>     
+        <div class="slds-align_absolute-center" style="height: 4rem;">
+         <lightning:button label="Save" title="Save" iconName ="custom:custom48"  onclick="{! c.submit}">
+            </lightning:button>   
+        </div>       
+    </form>
+        </lightning:recordEditForm>
+</aura:component>

@@ -1,0 +1,10 @@
+.THIS.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+.THIS.slds-card 
+{
+    padding: 50px;
+    border-style: double;
+    border: 1px solid #4CAF50;
+    height:500px;
+}

@@ -1,0 +1,24 @@
+<aura:component >
+    <aura:attribute name="messageFromEvent" type="String"/>
+    <aura:attribute name="numOfEventsCalled" type="Integer" default="0"/>
+
+    <!-- Note that name="cmpEventName" is from aura:registerEvent in Notifier Compo -->
+    <aura:handler name="cmpEventName" event="c:TrainingComponentEvent_Event" action="{!c.handleComponentEvent}"/>
+	
+	<div class="slds-page-header">
+        <div class="slds-media__body">
+            <h1 class="slds-page-header__title slds-truncate slds-align-middle" >Case Study Of Component Event</h1>
+        </div>
+	</div>
+
+    <!-- handler component contains the notifier component -->
+    <!-- ComponentEvent_HandlerComponent is like a parent component -->
+    <!-- ComponentEvent_NotifierComponent is like a child component -->
+    <c:ComponentEvent_notifier />
+    
+	
+	<!-- Data which we will get from above declared child component, we will use in below 2 lines of code which is part of parent compo code-->
+    <p>{!v.messageFromEvent}</p>
+    <p>Number of events: {!v.numOfEventsCalled}</p>
+
+</aura:component>

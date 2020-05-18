@@ -1,0 +1,52 @@
+<aura:component controller="Placement" implements="flexipage:availableForAllPageTypes" access="global" >
+     <aura:attribute name="placLst" type="Placement_Details__c" 
+                    default="{
+					'sobjectType': 'Placement_Details__c',
+					'dineshapache__Candidate_s_full_name__c': '',
+					'dineshapache__Salary__c': '',
+					'dineshapache__Technology__c': '',
+                    'dineshapache__Country_of_Work_Location__c':''         
+				    }"/>
+<h3 class="slds-section-title--divider" style="text-align:center">Placement Information</h3>
+  <div class="demo-only" style="width: 2000px;">
+  <div class="slds-form slds-form_compound">
+   <lightning:recordEditForm aura:id="recordEdit" objectApiName="dineshapache__Placement_Details__c" recordId="a0B7F00000FaAijUAF">
+    <form class="slds-form--stacked">
+	 <table class="borderCls">
+	 <tr>
+	 <th>
+        <lightning:layoutItem size="1">
+                    <lightning:inputField fieldName="dineshapache__Candidate_s_full_name__c" />
+        </lightning:layoutItem>
+		</th>
+             <lightning:layoutItem size="2">
+            <lightning:input aura:id="Candidateform1" label="Technology"
+                             name="Technology"
+                             value="{!v.placLst.dineshapache__Technology__c}"/> 
+        </lightning:layoutItem>
+		</tr>
+		<tr>
+		<th>
+        <lightning:layoutItem size="2">
+        <lightning:input aura:id="Candidateform2" label="Salary"
+                             name="Salary"
+                             value="{!v.placLst.dineshapache__Salary__c}"
+                             /> 
+        </lightning:layoutItem>
+		</th>
+		<th>
+        <lightning:layoutItem size="2">
+                    <lightning:inputField fieldName="dineshapache__Country_of_Work_Location__c" />
+        </lightning:layoutItem>
+		</th>
+		</tr>  
+        </table>
+        <div class="slds-align_absolute-center" style="height: 4rem;">
+         <input type="button" value="Save" class="slds-button slds-button--brand"
+                   onclick="{!c.submit}"/>
+        </div>
+       </form>
+      </lightning:recordEditForm>
+      </div>
+    </div>
+</aura:component>

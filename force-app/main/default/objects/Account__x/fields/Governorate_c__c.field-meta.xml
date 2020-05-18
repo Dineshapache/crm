@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Governorate_c__c</fullName>
+    <externalDeveloperName>Governorate__c</externalDeveloperName>
+    <externalId>false</externalId>
+    <isFilteringDisabled>false</isFilteringDisabled>
+    <isNameField>false</isNameField>
+    <isSortingDisabled>false</isSortingDisabled>
+    <label>Governorate</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alex</fullName>
+                <default>false</default>
+                <label>Alex</label>
+            </value>
+            <value>
+                <fullName>Cairo</fullName>
+                <default>false</default>
+                <label>Cairo</label>
+            </value>
+            <value>
+                <fullName>Canal Zone</fullName>
+                <default>false</default>
+                <label>Canal Zone</label>
+            </value>
+            <value>
+                <fullName>Delta</fullName>
+                <default>false</default>
+                <label>Delta</label>
+            </value>
+            <value>
+                <fullName>Giza</fullName>
+                <default>false</default>
+                <label>Giza</label>
+            </value>
+            <value>
+                <fullName>Red Sea</fullName>
+                <default>false</default>
+                <label>Red Sea</label>
+            </value>
+            <value>
+                <fullName>Upper Egypt</fullName>
+                <default>false</default>
+                <label>Upper Egypt</label>
+            </value>
+            <value>
+                <fullName>Helwan</fullName>
+                <default>false</default>
+                <label>Helwan</label>
+            </value>
+            <value>
+                <fullName>Dakahleya</fullName>
+                <default>false</default>
+                <label>Dakahleya</label>
+            </value>
+            <value>
+                <fullName>Menia</fullName>
+                <default>false</default>
+                <label>Menia</label>
+            </value>
+            <value>
+                <fullName>Aswan</fullName>
+                <default>false</default>
+                <label>Aswan</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

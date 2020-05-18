@@ -1,0 +1,11 @@
+<apex:page controller="DuplicateContactsController" sidebar="false" action="{!getContacts}">
+<apex:pagemessages />
+<apex:form >
+    <apex:pageBlock >
+        <apex:pageblockTable value="{!contacts}" var="r">            
+            <apex:column headerValue="Account Name" value="{!r.name}"/>
+            <apex:column headerValue="Number of Contacts" value="{!r.email}"/>
+        </apex:pageblockTable>
+    </apex:pageBlock>
+</apex:form>
+</apex:page>

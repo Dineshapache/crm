@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Class Classifaction --></label>
+    <name>Class_Classifaction__c</name>
+    <picklistValues>
+        <masterLabel>Business</masterLabel>
+        <translation><!-- Business --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exceutive</masterLabel>
+        <translation><!-- Exceutive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normal</masterLabel>
+        <translation><!-- Normal --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

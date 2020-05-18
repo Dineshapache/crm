@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Contact Role --></label>
+    <name>ContactRole_pc__c</name>
+    <picklistValues>
+        <masterLabel>Branch Manager</masterLabel>
+        <translation><!-- Branch Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dealer CRM</masterLabel>
+        <translation><!-- Dealer CRM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dealer Manager</masterLabel>
+        <translation><!-- Dealer Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salesman</masterLabel>
+        <translation><!-- Salesman --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

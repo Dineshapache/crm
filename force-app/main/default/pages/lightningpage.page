@@ -1,0 +1,25 @@
+<apex:page >   
+   <apex:includeLightning />       
+      <div id="lightning" />
+    <script>
+        $Lightning.use("c:Dineshcomponent", function() {
+          $Lightning.createComponent(
+          
+           //component name
+           "c:operationcomp1",
+           
+            //Component attribute (optional)
+            // The attributes to set on the component when it’s created
+           {},
+          
+          //domLocator | a div element where to insert the component
+          'lightning',
+          
+          //Callback function 
+          //A function to call once the component is added to and active on the page
+          function(cmp) {
+            // do some stuff
+          });  // create component closed
+        }); // lightning use closed
+    </script>
+</apex:page>

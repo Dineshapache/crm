@@ -1,0 +1,31 @@
+<aura:component implements="force:appHostable" controller="Candidatesearch">  
+<aura:attribute name="Cansearch" type="Candidate_Details__c[]"/>
+<aura:attribute name="showtbl" type="boolean" default="false"/>
+<aura:attribute name="showtl" type="boolean" default="false"/>    
+<ui:inputText aura:id="nameopp" label="Candidate Country" required="true"/> 
+<ui:button label="Search" press="{!c.Search}"/>
+<aura:if isTrue="{!v.showtbl}">    
+<span class="ligtn-button" style="white-space: pre;">
+</span>
+<table>
+          <thead>
+                <tr>
+                    <th><strong> First Name </strong></th>
+                    <th> <strong> Last Name </strong> </th>
+                    <th> <strong>  Age </strong> </th>
+                    <th> <strong>  Country </strong> </th> 
+                </tr>
+            </thead>
+            <tbody>
+                <aura:iteration var="opp" items="{!v.Cansearch}">                  
+                    <tr>
+                        		<td>{!opp.dineshapache__First_Name__c}</td>
+                       			<td>{!opp.dineshapache__Last_Name__c}</td>
+                                <td>{!opp.dineshapache__Age__c}</td>
+                                <td>{!opp.dineshapache__Country__c}</td>
+                    </tr>
+                </aura:iteration>
+            </tbody>
+        </table>
+        </aura:if>
+</aura:component>

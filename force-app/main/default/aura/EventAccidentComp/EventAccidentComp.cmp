@@ -1,0 +1,6 @@
+<aura:component >
+    <aura:attribute name = "finn" type = "string"/>
+    <aura:handler name = "Accident" event = "c:EventAccidentEvent" action = "{!c.road}"/>
+    <c:EventAccidentNotifiercomp/>
+<div>Message :<b>{!v.finn}</b></div>    
+</aura:component>

@@ -1,0 +1,27 @@
+<aura:component implements="force:appHostable,flexipage:availableForRecordHome" access="global" >
+<h3 class="slds-section-title--divider" style="text-align:center">Candidate Information</h3>
+<div class="slds-p-bottom_large slds-p-left_large" size ="10"> 
+ <lightning:recordEditForm aura:id="recordEditForm" objectApiName="dineshapache__Candidate_Details__c">
+<lightning:messages/>
+<lightning:layoutItem size="2">
+<lightning:inputField fieldName="dineshapache__First_Name__c" class="left-align"/>
+</lightning:layoutItem>
+<lightning:layoutItem size="2">
+<lightning:inputField fieldName="dineshapache__Last_Name__c" class="right-align" />
+</lightning:layoutItem>
+<lightning:layoutItem size="2">
+<lightning:inputField fieldName="dineshapache__Age__c" />
+</lightning:layoutItem>  
+<lightning:layoutItem size="2">
+<lightning:inputField fieldName="dineshapache__Email__c" />
+</lightning:layoutItem> 
+ <lightning:layoutItem size="2">
+<lightning:inputField fieldName="dineshapache__City__c" />
+</lightning:layoutItem>
+<lightning:layoutItem size="2">
+<lightning:inputField fieldName="dineshapache__Country__c" />
+</lightning:layoutItem>
+<lightning:button aura:id="submit" class="slds-m-top_small" type="submit" label="Create" /> 
+</lightning:recordEditForm>
+</div>
+</aura:component>

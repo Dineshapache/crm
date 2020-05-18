@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Student</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Students</value>
+    </caseValues>
+    <layouts>
+        <layout>College Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fees Section --></label>
+            <section>Fees Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>School Student</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fees Section --></label>
+            <section>Fees Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Student Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fees Section --></label>
+            <section>Fees Section</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- College Student --></label>
+        <name>College_Student</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- School Student --></label>
+        <name>School_Student</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

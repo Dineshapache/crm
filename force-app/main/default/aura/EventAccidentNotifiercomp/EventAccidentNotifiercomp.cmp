@@ -1,0 +1,5 @@
+<aura:component >
+<aura:registerEvent name="Accident" type="c:EventAccidentEvent"/>
+    <h1>Dinesh Event Details</h1>
+    <ui:button label = "Accident" press = "{!c.fir}"/>
+</aura:component>

@@ -1,0 +1,58 @@
+<aura:component controller="SRReq" implements="force:appHostable" access="global" >
+   <aura:handler name="init" value="{!this}" action="{!c.doInit}" /> 
+     <aura:attribute name="accLst" type="Service_Request__c[]"/>         
+    <div class="slds-page-header">
+                <div class="slds-media__body">
+                     <h1 class="slds-page-header__title slds-truncate slds-align-middle" >Nagarjuna Page</h1>
+                </div>
+    </div>    
+   
+    <article class="slds-card">
+        <header class="slds-media slds-media_center slds-has-flexi-truncate">          
+           <h2>
+               <span class="slds-text-heading_small">List of Service Request</span>
+            </h2>
+        </header>
+
+	   
+	   
+	  <!-- This is used to show a table - Topic SLDS -->
+      <div class="slds-card__body">
+        <table class="slds-table slds-table_bordered slds-no-row-hover slds-table_cell-buffer">
+	      <thead>
+            <tr class="slds-text-title_caps">
+              <th scope="col">
+                <div class="slds-truncate" title="Name">Name</div>
+              </th>
+              <th scope="col">
+                <div class="slds-truncate" title="Type">Status</div>
+              </th>
+              <th scope="col">
+                <div class="slds-truncate" title="Phone">Type</div>
+              </th>
+            </tr>
+          </thead>
+		  <!-- This is used to show a table body -->
+          <tbody>
+			  <!-- iteration account record.-->
+              <aura:iteration items="{!v.accLst}" var="acc"> 
+                  <tr class="slds-hint-parent">
+                      <td>
+                          <div class="slds-truncate" >
+						  <!-- showing one hyperlink, which wont do anything as of now-->
+                              <a href="{!'https://dineshapache-dev-ed.lightning.force.com/'+acc.Id}" target="_blank">{!acc.Name}</a></div>
+                      </td>
+                      <td>
+                          <div class="slds-truncate" >{!acc.dineshapache__SR_Status__c}</div>
+                      </td>
+                      <td>
+                          <div class="slds-truncate" title="{!acc.SR_Type__c}">{!acc.dineshapache__SR_Type__c}</div>
+                      </td>
+                  </tr>                     
+              </aura:iteration>
+          </tbody>
+        </table>
+      </div>
+    </article>
+  
+</aura:component>

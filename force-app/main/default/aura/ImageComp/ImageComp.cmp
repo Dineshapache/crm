@@ -1,0 +1,20 @@
+<aura:component controller="FileUploadController">
+<aura:attribute name="parentId" type="Id" default="0017F00000Q4jmO" />
+<aura:attribute name="attachid" type="Id"/>
+<aura:attribute name="showLoadingSpinner" type="boolean" default="false" />
+<aura:attribute name="show" type="boolean" default="false" /> 
+<aura:attribute name="fileName" type="String" default="No File Selected.." />
+<lightning:input aura:id="fileId" onchange="{!c.handleFilesChange}" type="file" length="0" name="file" label="Upload Attachment" multiple="false"/>
+<div class="slds-text-body_small slds-text-color_error">{!v.fileName} </div>
+<aura:if isTrue="{!v.showLoadingSpinner}">
+<div class="slds-text-body_small slds-text-color_error">Uploading... 
+<img src="/auraFW/resources/aura/images/spinner.gif" class="spinner-img" alt="Loading"/>'
+</div>
+</aura:if>
+<br/>
+<button class="slds-button slds-button_brand" onclick="{!c.doSave}">Upload Attachment</button>
+<br/>
+<aura:if isTrue="{!v.show}">
+<img src="{!'https://dineshapache-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file='+v.attachid}" height="150" width="100"/>   
+</aura:if>
+</aura:component>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Occupation --></label>
+    <name>Occupation_c__c</name>
+    <picklistValues>
+        <masterLabel>Accountant</masterLabel>
+        <translation><!-- Accountant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Armed Forces</masterLabel>
+        <translation><!-- Armed Forces --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Man</masterLabel>
+        <translation><!-- Business Man --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporate</masterLabel>
+        <translation><!-- Corporate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Doctor</masterLabel>
+        <translation><!-- Doctor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Engineer</masterLabel>
+        <translation><!-- Engineer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>House Wife</masterLabel>
+        <translation><!-- House Wife --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lawyer</masterLabel>
+        <translation><!-- Lawyer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manager</masterLabel>
+        <translation><!-- Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing</masterLabel>
+        <translation><!-- Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacist</masterLabel>
+        <translation><!-- Pharmacist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retired</masterLabel>
+        <translation><!-- Retired --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Self Employed</masterLabel>
+        <translation><!-- Self Employed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Teacher</masterLabel>
+        <translation><!-- Teacher --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>University Professor</masterLabel>
+        <translation><!-- University Professor --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

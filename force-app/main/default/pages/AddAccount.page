@@ -1,0 +1,80 @@
+<apex:page standardcontroller="Account" extensions="TestAccountClassController" id="pg" >
+<apex:includeScript value="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"/>
+<apex:form id="theForm">
+<apex:pageBlock id="AccountId" >
+<apex:pageMessages id="showmsg"></apex:pageMessages>
+<apex:pageBlockSection collapsible="true" title="Account Information"  columns="2">
+<apex:pageblockSectionItem >
+<apex:outputLabel value="First Name"/>
+<apex:outputField value="{!NewAccountinfo.FirstName__c}"/> 
+</apex:pageblockSectionItem>
+<apex:pageblockSectionItem >
+<apex:outputLabel value="Last Name"/>
+<apex:OutputField value="{!NewAccountinfo.LastName__c}"/> 
+</apex:pageblockSectionItem>
+<apex:pageblockSectionItem >
+<apex:outputLabel value="Account Name"/>
+<apex:outputlink value="/{!NewAccountinfo.id}">{!NewAccountinfo.Name}</apex:outputlink> 
+</apex:pageblockSectionItem>
+<apex:pageblockSectionItem >
+<apex:outputLabel value="Account Number"/>
+<apex:OutputField value="{!NewAccountinfo.AccountNumber}"/> 
+</apex:pageblockSectionItem>
+<apex:pageblockSectionItem >
+<apex:outputLabel value="Phone"/>
+<apex:OutputField value="{!NewAccountinfo.Phone}"/> 
+</apex:pageblockSectionItem>
+<apex:pageblockSectionItem >
+<apex:outputLabel value="Account Type"/>
+<apex:OutputField value="{!NewAccountinfo.Industry}"/> 
+</apex:pageblockSectionItem>
+</apex:pageBlockSection>
+<apex:pageBlock id="PBIInfoSec" rendered="{!srSizeFlag}" >
+<apex:pageBlockSection collapsible="true" title="Previous Service Request">
+<apex:inputhidden value="{!faciId}" id="faciId"/> 
+<apex:pageBlockTable value="{!SR}" var="SRP">
+<apex:inputhidden value="{!SRP.id}"/>
+ <apex:column headerValue="SR Number" value="{!SRP.Name}" onclick="seletedRow('{!SRP.Id}');" style="background-color:{Red}"/>
+ <apex:column headerValue="SR Type" value="{!SRP.SR_Type__c}" onclick="seletedRow('{!SRP.Id}');" style="background-color:{Red}"/>
+ <apex:column headerValue="SR Sub Type " value="{!SRP.Sub_Type__c}" onclick="seletedRow('{!SRP.Id}');" style="background-color:{Red}"/>
+ <apex:column headerValue="Status" value="{!SRP.SR_Status__c}" onclick="seletedRow('{!SRP.Id}');" style="background-color:{Red}"/>
+ </apex:pageBlockTable>
+</apex:pageBlockSection>
+</apex:pageBlock>
+<apex:actionFunction name="ShowSRDetails" action="{!ShowSRDetails}" status="showStatus"/>
+ 
+<apex:pageblock title="Service Request Details" id="pbFacility" >
+<apex:outputPanel rendered="{!PRacFlag}">    
+<apex:pageblockTable value="{!praFaciList}" var="faci">
+<apex:column >
+<apex:inputhidden value="{!faci.Id}"/></apex:column>
+<apex:column value="{!faci.Name}" headerValue="Service Request Number"/>          
+<apex:column headerValue="Type" value="{!faci.SR_Type__c}"/>             
+<apex:column headerValue="Status" value="{!faci.SR_Status__c}" />
+</apex:pageblocktable>
+</apex:outputPanel>
+<apex:pageblockButtons location="Bottom" >
+<apex:commandButton value="Save"  action="{!saveApplication}" rendered="{!ShowSRCreation}" /> 
+<apex:commandButton value="Cancel"  action="{!CancelApplication}"/>
+</apex:pageblockButtons>
+</apex:pageblock>
+</apex:pageblock>
+</apex:form> 
+<script>
+function seletedRow(pid) 
+{
+  var cells = document.getElementsByTagName("input"); 
+    for (var i = 0; i < cells.length; i++) 
+    { 
+        if (cells[i].id.indexOf('faciId') > 0) 
+{ 
+               cells[i].value = pid;
+        }
+    }
+    if(pid != '') 
+    {
+        ShowSRDetails();
+    }
+}
+</script>
+</apex:page>

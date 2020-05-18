@@ -1,0 +1,30 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:appHostable,force:hasRecordId" >
+<aura:registerEvent name ="bubblingEvent" type="c:OfferSPANotifierEvent"/>
+<aura:attribute  name="vin" type="string"/> 
+<article class="slds-card">
+<lightning:layoutItem size="4">
+<span class="nowrap" style="color:blue;">VIN:&nbsp;<ui:outputtext aura:id="can" value="{!v.vin}"/>
+</span>
+<br/>
+<br/>
+<div class="demo-only" style="padding: 0.5rem; background: rgb(22, 50, 92);">
+<div class="slds-text-color_inverse">Please Select your Audio unit brandes.</div>
+</div>
+<br/>
+<lightning:select name="selectItem" label="Radio Brand" >
+<option value="">choose one...</option>
+<option value="1">Philips/Bosch/Daewoo</option>
+<option value="2">Blaupunkt</option>
+</lightning:select>    
+<br/> 
+</lightning:layoutItem>  
+<div class="slds-align_absolute-center">
+<lightning:buttonGroup >
+<lightning:button label="Back" title="Back" iconName ="utility:back" variant="brand" onclick="{! c.back}">    
+</lightning:button>
+<lightning:button label="Next" title="Save" iconName ="utility:chevronright" variant="success" onclick="{! c.submit}">
+</lightning:button>    
+</lightning:buttonGroup>
+</div> 
+</article>   	
+</aura:component>

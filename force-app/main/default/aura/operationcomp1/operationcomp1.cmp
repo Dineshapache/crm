@@ -1,0 +1,14 @@
+<aura:component controller="CalculatorForLightning">
+    
+    <ui:inputText label="First Number" 
+                  placeHolder="Enter First Number" aura:id="FirstNumber" />
+    <br/>
+    <ui:inputText label="Second Number" 
+                  placeHolder="Enter Second Number" aura:id="SecondNumber" />
+    <br/>
+    <ui:button label="Sum" press="{!c.sum}" />
+    <ui:button label="Subtract" press="{!c.sub}" />
+    <ui:button label="Multiplication" press="{!c.mul}" />
+    <ui:button label="Division" press="{!c.div}" />
+   
+</aura:component>

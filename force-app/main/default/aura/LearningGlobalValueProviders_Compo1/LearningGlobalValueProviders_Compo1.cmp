@@ -1,0 +1,21 @@
+<aura:component >
+    <aura:attribute name="whichButtonPressed" type="String" />
+    
+    <p>Result: {!v.whichButtonPressed}</p>
+    
+    <ui:inputText label="Enter First Number"
+                  placeHolder="First Number"
+                  aura:id="FirstNumber"/>
+    <br />
+    
+    <ui:inputText label="Enter Second Number"
+                  placeHolder="Second Number"
+                  aura:id="SecondNumber"/>
+    <br />
+
+    <ui:button aura:id="SumBtn" label="Sum" press="{!c.callJSCode}"/>
+    <ui:button aura:id="SubBtn" label="Sub" press="{!c.callJSCode}"/>
+    <ui:button aura:id="MulBtn" label="Mul" press="{!c.callJSCode}"/>
+    <ui:button aura:id="DivBtn" label="Div" press="{!c.callJSCode}"/>
+
+</aura:component>

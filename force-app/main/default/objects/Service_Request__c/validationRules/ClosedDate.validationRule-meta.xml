@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ClosedDate</fullName>
+    <active>true</active>
+    <errorConditionFormula>((SR_Closed_Date__c) &gt;  ( TODAY()))</errorConditionFormula>
+    <errorDisplayField>SR_Closed_Date__c</errorDisplayField>
+    <errorMessage>Closes Date is  In Correct , Please Change the Value</errorMessage>
+</ValidationRule>

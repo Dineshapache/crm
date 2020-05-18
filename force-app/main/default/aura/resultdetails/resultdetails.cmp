@@ -1,0 +1,6 @@
+<aura:component>
+    <aura:attribute name="myText" type="string" default="KD0554616156151"/>
+    <div class = "slds-align_absolute-center">
+	 <b>The Audio code for Selected Device is  <ui:outputText value="{!v.myText}"/></b>
+    </div>    
+</aura:component>

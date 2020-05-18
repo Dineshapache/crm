@@ -1,0 +1,4 @@
+<aura:component controller="PickListController" access="global">
+<aura:registerEvent name="Pick" type="c:PicklistEvent"/>    
+ <aura:handler name="init" value="{!this}" action="{!c.doInit}" />   	
+</aura:component>

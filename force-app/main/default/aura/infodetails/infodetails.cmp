@@ -1,0 +1,32 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:appHostable,force:hasRecordId" >
+<aura:registerEvent name ="bubblingEvent" type="c:OfferSPANotifierEvent"/>
+<aura:attribute name="vin" type="string"/> 
+<aura:attribute name="pictureSrc" type="String" default="https://s3-us-west-1.amazonaws.com/sfdc-demo/image-placeholder.png"/>  
+<article class="slds-card">
+<lightning:layoutItem size="4">
+<br/>
+<span class="nowrap" style = "font-family:Times New Roman">You Vehicle Identification  entered (VIN):&nbsp; <ui:outputtext aura:id="inf" value="{!v.vin}"/>
+</span>
+<br/>
+<br/>
+<p style = "font-family:Times New Roman" size ="10">
+Vehicle Model: A33
+</p>
+<br/>
+</lightning:layoutItem>
+<c:ImageComp/>
+<br/>
+<p>Please Enter 14 Digit BP Number and Press the ?Submit?button.</p>
+<lightning:layoutItem size="2">
+<lightning:input style="font-color:blue;" aura:id="Serial Number" label="Serial Number:" name="Serial Number" required="true"/> 	
+</lightning:layoutItem>    
+<div class="slds-align_absolute-center">
+<lightning:buttonGroup >    
+<lightning:button label="Back" title="Back" iconName ="utility:back" variant="brand" onclick="{! c.back}">
+</lightning:button>
+<lightning:button label="Submit" title="Submit" iconName ="utility:chevronright" variant="success" onclick="{! c.submit}">
+</lightning:button>    
+</lightning:buttonGroup>
+</div> 
+</article>   	
+</aura:component>

@@ -1,0 +1,21 @@
+<aura:component >
+    <aura:attribute name="Dineshname" type="String" default="Dinesh" Description="This is Dinesh"/>
+    <aura:attribute name="DineshLastname" type="String" default="Kumar" Description="This is Last name of Dinesh"/>
+    The name of Student is {!v.Dineshname} &nbsp; {!v.DineshLastname}
+    <br/>
+    <aura:attribute name="indian" type="Boolean" default="True" Description="This is Last name of Dinesh"/>
+        <aura:attribute name="Gender" type="String" default="Male" Description="This is Last name of Dinesh"/>
+
+      <aura:if isTrue="{!v.indian}">
+      <aura:if isTrue="{!v.Gender == 'Male'}">
+     {!v.Dineshname+''+v.DineshLastname +' '+ 'is Indian Male'}
+    <aura:set attribute="else">
+         {!v.Dineshname+''+v.DineshLastname +' '+ 'is Indian Female'}
+          </aura:set>   
+          <br/>
+    </aura:if>      
+    <aura:set attribute="else">
+         {!v.Dineshname+''+v.DineshLastname + 'is not Male'}
+          </aura:set>        
+    </aura:if>
+</aura:component>

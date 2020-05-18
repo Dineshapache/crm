@@ -1,0 +1,7 @@
+<aura:component >
+   <lightning:accordion >
+     <lightning:accordionSection name="A" 
+                                 label="Organisation Details" title="Dinesh">Dinesh company is one of leading Software 
+    Technology Provider for various Top Clients in India. Dinesh Company topped the  Fortune India 500 rankings  </lightning:accordionSection>
+  </lightning:accordion>
+</aura:component>

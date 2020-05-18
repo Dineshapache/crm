@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountSource__c</fullName>
+    <externalDeveloperName>AccountSource</externalDeveloperName>
+    <externalId>false</externalId>
+    <isFilteringDisabled>false</isFilteringDisabled>
+    <isNameField>false</isNameField>
+    <isSortingDisabled>false</isSortingDisabled>
+    <label>Account Source</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NMEG Website</fullName>
+                <default>false</default>
+                <label>NMEG Website</label>
+            </value>
+            <value>
+                <fullName>NMEG Facebook</fullName>
+                <default>false</default>
+                <label>NMEG Facebook</label>
+            </value>
+            <value>
+                <fullName>NMEG Publishers</fullName>
+                <default>false</default>
+                <label>NMEG Publishers</label>
+            </value>
+            <value>
+                <fullName>NMEG Official CallCenter</fullName>
+                <default>false</default>
+                <label>NMEG Official Call Center</label>
+            </value>
+            <value>
+                <fullName>NMEG Campaigns</fullName>
+                <default>false</default>
+                <label>NMEG Campaigns</label>
+            </value>
+            <value>
+                <fullName>NMEG Events</fullName>
+                <default>false</default>
+                <label>NMEG Events</label>
+            </value>
+            <value>
+                <fullName>Dealer Digital Platform</fullName>
+                <default>false</default>
+                <label>Dealer Digital Platform</label>
+            </value>
+            <value>
+                <fullName>Dealer Mobile Message</fullName>
+                <default>false</default>
+                <label>Dealer Mobile Message</label>
+            </value>
+            <value>
+                <fullName>Dealer Showroom</fullName>
+                <default>false</default>
+                <label>Dealer Showroom</label>
+            </value>
+            <value>
+                <fullName>Dealer Event</fullName>
+                <default>false</default>
+                <label>Dealer Event</label>
+            </value>
+            <value>
+                <fullName>Dealer Call Center</fullName>
+                <default>false</default>
+                <label>Dealer Call Center</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

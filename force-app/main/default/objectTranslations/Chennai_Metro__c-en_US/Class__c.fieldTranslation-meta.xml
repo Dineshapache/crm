@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Class --></label>
+    <name>Class__c</name>
+    <picklistValues>
+        <masterLabel>Non-Premiun</masterLabel>
+        <translation><!-- Non-Premiun --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Premium</masterLabel>
+        <translation><!-- Premium --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,70 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:appHostable" >
+<aura:attribute name="VIN" type="String"/>
+<aura:attribute name="infvin" type="String"/>    
+<aura:registerEvent name ="DetailEventEvent" type="c:CandidateDetailEvent"/>
+<aura:handler name ="bubblingEvent" event="c:OfferSPANotifierEvent" action = "{!c.handleBubbling}"/>
+<aura:handler name ="init" value = "{!this}" action = "{!c.doint}"/>
+<div class="c-container">
+<lightning:layout horizontalAlign ="space">
+<lightning:layoutItem flexibility="auto" padding="around-small">
+<h1 class="slds-page-header__title slds-truncate slds-align-middle" style ="color:Red;">Nissan Audio System</h1>    
+</lightning:layoutItem>
+<lightning:layoutItem flexibility="auto" padding="around-small">
+<div class ="slds-grid">
+<div class ="slds-tabs--path" role="application">
+<ul class="slds-tabs--path__nav" role="tablist">
+<li aura:id="detailsindicator" class ="slds-tabs--path__item slds-is-current" role="presentation">
+<a class="slds-tabs--path__link" id="tabs-path-2326" aria-controls="content-path-1" aria-selected="false"      
+tabindex="-1" role="tab" href="javascript:void(0);" aria-live="assertive">
+<span class ="slds-tabs--path__stage">
+<lightning:icon iconname="utility:check" size="x-small" alternativeText="Indicates approval"/>
+</span>
+<span class="slds-tabs--path__title">Enter VPIN</span>
+</a>
+</li>
+<li aura:id="templateindicator" class ="slds-tabs--path__item slds-is-incomplete" role="presentation">
+<a class="slds-tabs--path__link" id="tabs-path-2326" aria-controls="content-path-1" aria-selected="false"      
+tabindex="-1" role="tab" href="javascript:void(0);" aria-live="assertive">
+<span class ="slds-tabs--path__stage">
+<lightning:icon iconname="utility:check" size="x-small" alternativeText="Indicates approval"/>
+</span>
+<span class="slds-tabs--path__title">Select Auto Brand</span>
+</a>
+</li>
+<li aura:id="audiotemplate" class ="slds-tabs--path__item slds-is-incomplete" role="presentation">
+<a class="slds-tabs--path__link" id="tabs-path-2326" aria-controls="content-path-1" aria-selected="false"      
+tabindex="-1" role="tab" href="javascript:void(0);" aria-live="assertive">
+<span class ="slds-tabs--path__stage">
+<lightning:icon iconname="utility:check" size="x-small" alternativeText="Indicates approval"/>
+</span>
+<span class="slds-tabs--path__title">Enter Information</span>
+</a>
+</li>
+<li aura:id="infoindicator" class ="slds-tabs--path__item slds-is-incomplete" role="presentation">
+<a class="slds-tabs--path__link" id="tabs-path-2326" aria-controls="content-path-1" aria-selected="false"      
+tabindex="-1" role="tab" href="javascript:void(0);" aria-live="assertive">
+<span class ="slds-tabs--path__stage">
+<lightning:icon iconname="utility:check" size="x-small" alternativeText="Indicates approval"/>
+</span>
+<span class="slds-tabs--path__title">Audio code</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</lightning:layoutItem>
+</lightning:layout>
+</div>
+<div aura:id ="detailsdiv">
+<c:vindetails aura:id="details"/>
+</div>
+<div aura:id ="templatediv">
+<c:audiodetails aura:id="template" vin="{!v.VIN}"/>
+</div>
+<div aura:id ="previewdiv">
+<c:infodetails aura:id="preview" vin ="{!v.VIN}"/>
+</div>
+<div aura:id ="confirmdiv">
+<c:resultdetails aura:id="confirm"/>
+</div>      
+</aura:component>

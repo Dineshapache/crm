@@ -1,0 +1,15 @@
+<aura:component >
+	    <aura:handler name="cmpEventName" event="c:CandComponentEvent_Event" action="{!c.handleComponentEvent}"/>
+        <aura:attribute name="con" type="String"/> 
+    	<div class="slds-page-header">
+                     <div class="slds-media__body">
+                     <h1 class="slds-page-header__title slds-truncate slds-align-middle" >Email Search</h1>
+                     </div>
+         </div>        
+        <div class="container-fluid">
+            <div class="form-group">
+                <ui:inputText label="Enter the Country" placeHolder="Mail" aura:id="Country" />
+            </div>
+    </div>
+    <c:CandEventNotifComp selcountry="{!v.con}"/>
+</aura:component>

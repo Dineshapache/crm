@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ShowroomLocation_c__c</fullName>
+    <externalDeveloperName>ShowroomLocation__c</externalDeveloperName>
+    <externalId>false</externalId>
+    <isFilteringDisabled>false</isFilteringDisabled>
+    <isNameField>false</isNameField>
+    <isSortingDisabled>false</isSortingDisabled>
+    <label>Showroom Location</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abasya</fullName>
+                <default>false</default>
+                <label>Abasya</label>
+            </value>
+            <value>
+                <fullName>Abis</fullName>
+                <default>false</default>
+                <label>Abis</label>
+            </value>
+            <value>
+                <fullName>Abu Rawash</fullName>
+                <default>false</default>
+                <label>Abu Rawash</label>
+            </value>
+            <value>
+                <fullName>Alex-Cairo Rd</fullName>
+                <default>false</default>
+                <label>Alex-Cairo Rd</label>
+            </value>
+            <value>
+                <fullName>Assiout</fullName>
+                <default>false</default>
+                <label>Assiout</label>
+            </value>
+            <value>
+                <fullName>Aswan</fullName>
+                <default>false</default>
+                <label>Aswan</label>
+            </value>
+            <value>
+                <fullName>Bany Suef</fullName>
+                <default>false</default>
+                <label>Bany Suef</label>
+            </value>
+            <value>
+                <fullName>Dokki</fullName>
+                <default>false</default>
+                <label>Dokki</label>
+            </value>
+            <value>
+                <fullName>El Hadra</fullName>
+                <default>false</default>
+                <label>El Hadra</label>
+            </value>
+            <value>
+                <fullName>Gesr El Suez</fullName>
+                <default>false</default>
+                <label>Gesr El Suez</label>
+            </value>
+            <value>
+                <fullName>Gleem</fullName>
+                <default>false</default>
+                <label>Gleem</label>
+            </value>
+            <value>
+                <fullName>Heliopolis-Airport Rd</fullName>
+                <default>false</default>
+                <label>Heliopolis-Airport Rd</label>
+            </value>
+            <value>
+                <fullName>Heliopolis-Hegaz</fullName>
+                <default>false</default>
+                <label>Heliopolis-Hegaz</label>
+            </value>
+            <value>
+                <fullName>Horya Road</fullName>
+                <default>false</default>
+                <label>Horya Road</label>
+            </value>
+            <value>
+                <fullName>Hurghada</fullName>
+                <default>false</default>
+                <label>Hurghada</label>
+            </value>
+            <value>
+                <fullName>Imbaba</fullName>
+                <default>false</default>
+                <label>Imbaba</label>
+            </value>
+            <value>
+                <fullName>Ismaelya</fullName>
+                <default>false</default>
+                <label>Ismaelya</label>
+            </value>
+            <value>
+                <fullName>Janaklees</fullName>
+                <default>false</default>
+                <label>Janaklees</label>
+            </value>
+            <value>
+                <fullName>Katameya</fullName>
+                <default>false</default>
+                <label>Katameya</label>
+            </value>
+            <value>
+                <fullName>Luxor</fullName>
+                <default>false</default>
+                <label>Luxor</label>
+            </value>
+            <value>
+                <fullName>Maadi</fullName>
+                <default>false</default>
+                <label>Maadi</label>
+            </value>
+            <value>
+                <fullName>Mansoura 3aref</fullName>
+                <default>false</default>
+                <label>Mansoura 3aref</label>
+            </value>
+            <value>
+                <fullName>Mansoura Mahla</fullName>
+                <default>false</default>
+                <label>Mansoura Mahla</label>
+            </value>
+            <value>
+                <fullName>Menya</fullName>
+                <default>false</default>
+                <label>Menya</label>
+            </value>
+            <value>
+                <fullName>Mohandseen</fullName>
+                <default>false</default>
+                <label>Mohandseen</label>
+            </value>
+            <value>
+                <fullName>Nasr City</fullName>
+                <default>false</default>
+                <label>Nasr City</label>
+            </value>
+            <value>
+                <fullName>New Cairo</fullName>
+                <default>false</default>
+                <label>New Cairo</label>
+            </value>
+            <value>
+                <fullName>Nozha</fullName>
+                <default>false</default>
+                <label>Nozha</label>
+            </value>
+            <value>
+                <fullName>Qalube</fullName>
+                <default>false</default>
+                <label>Qalube</label>
+            </value>
+            <value>
+                <fullName>Qena</fullName>
+                <default>false</default>
+                <label>Qena</label>
+            </value>
+            <value>
+                <fullName>Shebin El Kom</fullName>
+                <default>false</default>
+                <label>Shebin El Kom</label>
+            </value>
+            <value>
+                <fullName>Shobra</fullName>
+                <default>false</default>
+                <label>Shobra</label>
+            </value>
+            <value>
+                <fullName>Shrouk</fullName>
+                <default>false</default>
+                <label>Shrouk</label>
+            </value>
+            <value>
+                <fullName>Sidi Gaber</fullName>
+                <default>false</default>
+                <label>Sidi Gaber</label>
+            </value>
+            <value>
+                <fullName>Suez-sport city</fullName>
+                <default>false</default>
+                <label>Suez-sport city</label>
+            </value>
+            <value>
+                <fullName>Suez-Suez Road</fullName>
+                <default>false</default>
+                <label>Suez-Suez Road</label>
+            </value>
+            <value>
+                <fullName>Tanta El Fatah</fullName>
+                <default>false</default>
+                <label>Tanta El Fatah</label>
+            </value>
+            <value>
+                <fullName>Tanta El Nemla</fullName>
+                <default>false</default>
+                <label>Tanta El Nemla</label>
+            </value>
+            <value>
+                <fullName>Zayed</fullName>
+                <default>false</default>
+                <label>Zayed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
