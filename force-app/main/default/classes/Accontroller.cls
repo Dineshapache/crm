@@ -1,5 +1,5 @@
 Public with sharing class Accontroller 
-{ // Dinesh Added
+{ // Dinesh
 @AuraEnabled
     public static Account RecordCreate(Id ac) 
     {
