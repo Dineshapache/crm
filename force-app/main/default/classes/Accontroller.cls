@@ -1,5 +1,5 @@
 Public with sharing class Accontroller 
-{  //Dinesh Kumar K Fire 
+{  //Dinesh Kumar K No fire
 @AuraEnabled
     public static Account RecordCreate(Id ac) 
     { 
